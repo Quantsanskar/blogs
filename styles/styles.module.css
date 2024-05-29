@@ -1,0 +1,144 @@
+/* styles.module.css */
+
+/* Container styles */
+.featuredBlogContainer {
+    padding: 20px;
+    background-color: #f3f4f6;
+}
+
+/* Blog card styles */
+.blogCard {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.blogCardTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.blogCardContent {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #666666;
+}
+
+.blogCardFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.authorInfo {
+    font-size: 0.9rem;
+    color: #888888;
+}
+
+.dateInfo {
+    font-size: 0.9rem;
+    color: #888888;
+}
+
+/* Button styles */
+.buttonPrimary {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buttonPrimary:hover {
+    background-color: #0056b3;
+}
+
+/* Modal styles */
+.modalContainer {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalContent {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.modalTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.modalBody {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #666666;
+}
+
+.commentForm {
+    margin-top: 20px;
+}
+
+.commentTextArea,
+.authorNameInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.commentTextArea {
+    resize: vertical;
+}
+
+.submitButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submitButton:hover {
+    background-color: #0056b3;
+}
+
+/* Comment styles */
+.commentContainer {
+    margin-top: 30px;
+}
+
+.commentBox {
+    padding: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.commentText {
+    font-size: 1rem;
+    color: #333333;
+}
+
+.commentAuthor {
+    font-size: 0.9rem;
+    color: #888888;
+}
